@@ -1,0 +1,16 @@
+{
+  "name": "star-wars-heroes",
+  "version": "1.0.0",
+  "description": "Star Wars Heroes using native JavaScript",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {}
+}

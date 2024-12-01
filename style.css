@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #282c34;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    background: #444;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+#heroes-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+#heroes-list li {
+    background: #333;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#heroes-list li:hover {
+    background: #555;
+}
+
+#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none!important;
+}
+
+.modal-content {
+    background: #444;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    text-align: center;
+}
+
+#close-modal {
+    background: #666;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+#vehicle-details {
+    text-align: left;
+}
